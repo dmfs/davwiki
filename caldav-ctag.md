@@ -4,4 +4,4 @@
 
 ### Properties
 
-[http://calendarserver.org/ns/:getctag](http:--calendarserver.org-ns-:getctag)
+[http://calendarserver.org/ns/:getctag](http%3A--calendarserver.org-ns-:getctag)
