@@ -1,4 +1,4 @@
-<!-- --- title: PROPFIND Mathod -->
+<!-- --- title: PROPFIND Method -->
 
 [[_TOC_]]
 
@@ -26,8 +26,8 @@
 > internal members, or on the resource identified by the Request-URI
 > and potentially its member resources, if the resource is a collection
 > that has internal member URLs.  All DAV-compliant resources MUST
-> support the PROPFIND method and the propfind XML element
-> (Section 14.20) along with all XML elements defined for use with that
+> support the PROPFIND method and the [[DAV::propfind]] XML element
+> ([Section 14.20](http://tools.ietf.org/html/rfc4918#section-14.20)) along with all XML elements defined for use with that
 > element.
 
 > A client MUST submit a Depth header with a value of "0", "1", or
@@ -36,7 +36,7 @@
 > "infinity" requests.  In practice, support for infinite-depth
 > requests MAY be disabled, due to the performance and security
 > concerns associated with this behavior.  Servers SHOULD treat a
-> request without a Depth header as if a "Depth: infinity" header was
+> request without a [[Depth header]] as if a "Depth: infinity" header was
 > included.
 
 > A client may submit a 'propfind' XML element in the body of the
@@ -59,29 +59,29 @@
 >
 > Note that 'allprop' does not return values for all live properties.
 > WebDAV servers increasingly have expensively-calculated or lengthy
-> properties (see [RFC3253] and [RFC3744]) and do not return all
-> properties already.  Instead, WebDAV clients can use propname
+> properties (see [[RFC 3253]] and [[RFC 3744]]) and do not return all
+> properties already.  Instead, WebDAV clients can use [[DAV::propname]]
 > requests to discover what live properties exist, and request named
 > properties when retrieving values.  For a live property defined
 > elsewhere, that definition can specify whether or not that live
 > property would be returned in 'allprop' requests.
 >
 > All servers MUST support returning a response of content type text/
-> xml or application/xml that contains a multistatus XML element that
+> xml or application/xml that contains a [[DAV::multistatus]] XML element that
 > describes the results of the attempts to retrieve the various
 > properties.
 >
 > If there is an error retrieving a property, then a proper error
 > result MUST be included in the response.  A request to retrieve the
 > value of a property that does not exist is an error and MUST be noted
-> with a 'response' XML element that contains a 404 (Not Found) status
+> with a 'response' XML element that contains a [[404 (Not Found)|404]] status
 > value.
 >
-> Consequently, the 'multistatus' XML element for a collection resource
-> MUST include a 'response' XML element for each member URL of the
+> Consequently, the '[[DAV::multistatus]]' XML element for a collection resource
+> MUST include a '[[DAV::response]]' XML element for each member URL of the
 > collection, to whatever depth was requested.  It SHOULD NOT include
-> any 'response' elements for resources that are not WebDAV-compliant.
-> Each 'response' element MUST contain an 'href' element that contains
+> any '[[DAV::response]]' elements for resources that are not WebDAV-compliant.
+> Each '[[DAV::response]]' element MUST contain an '[[DAV::href]]' element that contains
 > the URL of the resource on which the properties in the prop XML
 > element are defined.  Results for a PROPFIND on a collection resource
 > are returned as a flat list whose order of entries is not
@@ -95,19 +95,19 @@
 > MAY be silently excluded from the response.
 >
 > Some PROPFIND results MAY be cached, with care, as there is no cache
-> validation mechanism for most properties.  This method is both safe
-> and idempotent (see Section 9.1 of [RFC2616]).
+> validation mechanism for most properties.  This method is both [[safe|Safe Method]]
+> and [[idempotent|Idempotent Method]] (see [Section 9.1 of RFC2616](http://tools.ietf.org/html/rfc2616#section-9.1)).
 
 ###PROPFIND Status Codes
 
 > This section, as with similar sections for other methods, provides
 > some guidance on error codes and preconditions or postconditions
-> (defined in Section 16) that might be particularly useful with
+> (defined in [Section 16](http://tools.ietf.org/html/rfc4918#section-16)) that might be particularly useful with
 > PROPFIND.
 >
-> 403 Forbidden - A server MAY reject PROPFIND requests on collections
+> [[403 Forbidden|403]] - A server MAY reject PROPFIND requests on collections
 > with depth header of "Infinity", in which case it SHOULD use this
-> error with the precondition code 'propfind-finite-depth' inside the
+> error with the precondition code '[[DAV::propfind-finite-depth]]' inside the
 > error body.
 
 ###Status Codes for Use in 'propstat' Element
