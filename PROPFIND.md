@@ -5,18 +5,20 @@
 <div id="summary-box" markdown="1">
 ###Summary
 
-#####Specification
-[[RFC 4918]]
-[Section 9.1](http://tools.ietf.org/html/rfc4918#section-9.1).
-
-#####Request root element
-[[DAV::propfind]]
-
-#####Request properties
-[[Cacheable|Cacheable Method]], [[Idempotent|Idempotent Method]], [[Safe|Safe Method]]
- 
-#####Valid success status codes
-[[207]]
+<dl>
+<dt>Specification</dt>
+<dd markdown="1">[[RFC 4918]] [Section 9.1](http://tools.ietf.org/html/rfc4918#section-9.1)
+</dd>
+<dt>Request root element</dt>
+<dd markdown="1">[[DAV::propfind]]
+</dd>
+<dt>Request properties</dt>
+<dd markdown="1">[[Cacheable|Cacheable Method]] (some results), [[Idempotent|Idempotent Method]], [[Safe|Safe Method]]
+</dd>
+<dt>Valid success status codes</dt>
+<dd markdown="1">[[207]]
+</dd>
+</dl>
 
 </div>
 
@@ -29,7 +31,7 @@
 > support the PROPFIND method and the [[DAV::propfind]] XML element
 > ([Section 14.20](http://tools.ietf.org/html/rfc4918#section-14.20)) along with all XML elements defined for use with that
 > element.
-
+>
 > A client MUST submit a Depth header with a value of "0", "1", or
 > "infinity" with a PROPFIND request.  Servers MUST support "0" and "1"
 > depth requests on WebDAV-compliant resources and SHOULD support
@@ -38,7 +40,7 @@
 > concerns associated with this behavior.  Servers SHOULD treat a
 > request without a [[Depth header]] as if a "Depth: infinity" header was
 > included.
-
+>
 > A client may submit a 'propfind' XML element in the body of the
 > request method describing what information is being requested.  It is
 > possible to:
@@ -134,7 +136,8 @@
 
 ####Retrieving Named Properties
 
-#####Request
+**Request**
+
 >
 ```
 PROPFIND /file HTTP/1.1
@@ -153,7 +156,8 @@ Content-Length: xxxx
 </D:propfind>
 ```
 
-#####Response
+**Response**
+
 >
 ```
 HTTP/1.1 207 Multi-Status
@@ -187,7 +191,7 @@ Content-Length: xxxx
   </D:responsedescription>
 </D:multistatus>
 ```
-
+>
 > In this example, PROPFIND is executed on a non-collection resource
 > http://www.example.com/file.  The propfind XML element specifies the
 > name of four properties whose values are being requested.  In this
@@ -197,7 +201,8 @@ Content-Length: xxxx
 
 ####Using 'propname' to Retrieve All Property Names
 
-#####Request
+**Request**
+
 >
 ```xml
      PROPFIND /container/ HTTP/1.1
@@ -211,7 +216,8 @@ Content-Length: xxxx
      </propfind>
 ```
 
-#####Response
+**Response**
+
 >
 ```xml
 HTTP/1.1 207 Multi-Status
@@ -253,7 +259,7 @@ Content-Length: xxxx
   </response>
 </multistatus>
 ```
-
+>
 > In this example, PROPFIND is invoked on the collection resource
 > http://www.example.com/container/, with a propfind XML element
 > containing the propname XML element, meaning the name of all
@@ -287,7 +293,8 @@ Content-Length: xxxx
 > compatibility, does not return every property, but only dead
 > properties and the live properties defined in this specification.
 
-#####Request
+**Request**
+
 >
 ```xml
 PROPFIND /container/ HTTP/1.1
@@ -302,7 +309,8 @@ Content-Length: xxxx
 </D:propfind>
 ```
 
-#####Response
+**Response**
+
 >
 ```xml
 HTTP/1.1 207 Multi-Status
@@ -406,7 +414,8 @@ Content-Length: xxxx
 
 ####Using 'allprop' with 'include'
 
-#####Request
+**Request**
+
 >
 ```xml
 PROPFIND /mycol/ HTTP/1.1
