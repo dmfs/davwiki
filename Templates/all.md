@@ -1,4 +1,5 @@
 This page lists all existing templates for various page types:
 
-* [[RFC]]
+* [[Method]]
 * [[Property]]
+* [[RFC]]

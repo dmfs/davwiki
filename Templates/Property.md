@@ -3,27 +3,31 @@
 <div id="summary-box" markdown="1">
 ###Summary
 
-#####Specification
+<dl>
+<dt>Specification</dt>
 <!-- insert the RFC number and the link to the original specification of this property -->
-[[RFC xxxx]]
-[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb).
-
-##### Updated by
+<dd markdown="1">[[RFC xxxx]]
+[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb)
+</dd>
+<dt>Updated by</dt>
 <!-- insert the RFC number and the link to the updating specification or remove this section -->
-[[RFC xxxx]]
-[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb).
+<dd markdown="1">[[RFC xxxx]]
+[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb)
+</dd>
+<dt>Type</dt>
+<dd markdown="1">Property
+</dd>
+<dt>Protected</dt>
+<dd markdown="1">MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
+</dd>
+<dt>Returned by allprop</dt>
+<dd markdown="1">MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
+</dd>
+<dt>Valid for resource types</dt>
+<dd markdown="1">List resource types for which this property is valid
+</dd>
+</dl>
 
-#####Type
-Property
-
-#####Protected
-MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
-
-#####Returned by allprop
-MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
-
-#####Valid for resource types
-List resource types for which this property is valid
 </div>
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
