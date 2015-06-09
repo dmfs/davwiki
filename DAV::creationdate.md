@@ -3,25 +3,28 @@
 <div id="summary-box" markdown="1">
 ###Summary
 
-#####Specification
-[[RFC 4918]]
-[Section 15.1](http://tools.ietf.org/html/rfc4918#section-15.1).
+<dl>
+<dt>Specification</dt>
+<dd markdown="1">[[RFC 4918]]
+[Section 15.1](http://tools.ietf.org/html/rfc4918#section-15.1)
+</dd>
+<dt>Type</dt>
+<dd markdown="1">Property
+</dd>
+<dt>Protected</dt>
+<dd markdown="1">MAY
+</dd>
+<dt>Returned by allprop</dt>
+<dd markdown="1">MUST
+</dd>
+<dt>Valid for resource types</dt>
+<dd markdown="1">all DAV compliant resources
+</dd>
+</dl>
 
-#####Type
-Property
-
-#####Value
-date-time
-
-#####Protected
-MAY
-
-#####Returned by allprop
-MUST
-
-#####Valid for resource types
-all
 </div>
+
+<!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 
 ###Purpose
 > Records the time and date the resource was created.
@@ -37,7 +40,6 @@ all
 
 ###Description
 > The DAV:creationdate property SHOULD be defined on all DAV compliant resources.  If present, it contains a timestamp of the moment when the resource was created. Servers that are incapable of persistently recording the creation date SHOULD instead leave it undefined (i.e. report "Not Found").
-
 
 ### DTD
 > 
