@@ -34,7 +34,7 @@
 String
 
 ###Conformance
-> This property MAY be defined on any [[calendar collection|urn:ietf:params:xml:ns:caldav:calendar]]. If defined, it MAY be protected and SHOULD NOT be returned by a [[PROPFIND]] [[DAV::allprop]] request (as defined in [Section 12.14.1 of RFC 2518](https://tools.ietf.org/html/rfc4791#section-12.14.1)). An [[xml:lang]] attribute indicating the human language of the description SHOULD be set for this property by clients or through server provisioning.  Servers MUST return any [[xml:lang]] attribute if set for the property.
+> This property MAY be defined on any [[calendar collection|urn:ietf:params:xml:ns:caldav:calendar]]. If defined, it MAY be protected and SHOULD NOT be returned by a [[PROPFIND]] [[DAV::allprop]] request (as defined in [Section 12.14.1 of RFC 2518](https://tools.ietf.org/html/rfc2518#section-12.14.1)). An [[xml:lang]] attribute indicating the human language of the description SHOULD be set for this property by clients or through server provisioning.  Servers MUST return any [[xml:lang]] attribute if set for the property.
 
 ###Description
 >  If present, the property contains a description of the calendar collection that is suitable for presentation to a user. If not present, the client should assume no description for the calendar collection.
