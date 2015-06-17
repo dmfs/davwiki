@@ -3,8 +3,6 @@
 <div id="summary-box" markdown="1">
 ###Summary
 
-#####Specification
-
 <dl>
 <dt>Specification</dt>
 <!-- insert the RFC number and the link to the original specification of this property -->

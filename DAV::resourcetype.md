@@ -3,22 +3,31 @@
 <div id="summary-box" markdown="1">
 ###Summary
 
-#####Specification
-[[RFC 4918]]
+<dl>
+<dt>Specification</dt>
+<!-- insert the RFC number and the link to the original specification of this property -->
+<dd markdown="1">[[RFC 4918]]
 [Section 15.9](http://tools.ietf.org/html/rfc4918#section-15.9).
+</dd>
+<dt>Type</dt>
+<dd markdown="1">Property
+</dd>
+<dt>Protected</dt>
+<dd markdown="1">SHOULD
+</dd>
+<dt>Returned by allprop</dt>
+<dd markdown="1">MUST
+</dd>
+<!--
+<dt>Valid for resource types</dt>
+<dd markdown="1">List resource types for which this property is valid
+</dd>
+-->
+</dl>
 
-#####Type
-Property
-
-#####Protected
-SHOULD
-
-#####Returned by allprop
-MUST
-
-#####Valid for resource types
-Valid on all DAV-compliant resources, see [DTD](#dtd)
 </div>
+
+<!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 
 ###Purpose
 >Specifies the nature of the resource.
