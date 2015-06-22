@@ -29,6 +29,9 @@
 ###Purpose
 > Contains the [[ETag]] header value (from [Section 14.19 of RFC 2616](http://tools.ietf.org/html/rfc2616#section-14.19)) as it would be returned by a [[GET]] without accept headers.
 
+### Value
+> entity-tag (defined in [Section 3.11 of RFC2616](http://tools.ietf.org/html/rfc2616#section-3.11))
+
 ###Protected
 >MUST be protected because this value is created and controlled by the server.
 
