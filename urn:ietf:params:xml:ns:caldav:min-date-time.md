@@ -1,13 +1,13 @@
 <!-- --- title: urn:ietf:params:xml:ns:caldav:min-date-time -->
 
 <div id="summary-box" markdown="1">
+
 ###Summary
 
 <dl>
 <dt>Specification</dt>
 <!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 4791]]
-[Section 5.2.6](http://tools.ietf.org/html/rfc4791#section-5.2.6)
+<dd markdown="1">[[RFC 4791]] [Section 5.2.6](http://tools.ietf.org/html/rfc4791#section-5.2.6)
 </dd>
 <dt>Type</dt>
 <dd markdown="1">Property
