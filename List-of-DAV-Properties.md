@@ -23,7 +23,7 @@
 | [[DAV:creationdate|DAV::creationdate]] | Records the time and date the resource was created. | date-time |
 | [[DAV:displayname|DAV::displayname]] | Provides a name for the resource that is suitable for presentation to a user. | text |
 | [[DAV:getcontentlanguage|DAV::getcontentlanguage]] | Contains the [[Content-Language header|headers/Content-Language]] value as it would be returned by a [[GET]] without accept headers. | language-tag |
-| [[DAV:getcontentlength]] | Contains the Content-Length header returned by a [[GET]] without accept. | decimal number |
+| [[DAV:getcontentlength|DAV::getcontentlength]] | Contains the Content-Length header returned by a [[GET]] without accept. | decimal number |
 | [[DAV:getcontenttype|DAV::getcontenttype]] | Contains the Content-Type header value as it would be returned by a [[GET]] without accept headers. | media-type |
 | [[DAV:getetag|DAV::getetag]] | Contains the ETag header value as it would be returned by a [[GET]] without accept headers. | entity-tag |
 | [[DAV:getlastmodified|DAV::getlastmodified]] | Contains the Last-Modified header value as it would be returned by a [[GET]] method without accept headers. | rfc1123-date |
