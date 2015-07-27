@@ -1,7 +1,7 @@
 <!-- --- title: http://calendarserver.org/ns/:getctag -->
 
 <div id="summary-box" markdown="1">
-###Summary
+<h4>Summary</h4>
 
 #####Specification
 [[caldav-ctag]]

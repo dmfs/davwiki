@@ -2,7 +2,7 @@
 [[_TOC_]]
 
 <div id="summary-box" markdown="1">
-###Summary
+<h4>Summary</h4>
 <!-- Fil the the RFC number, remove any sections that don't apply -->
 <dl>
 <dt>Specification</dt>

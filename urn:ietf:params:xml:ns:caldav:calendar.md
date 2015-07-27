@@ -1,7 +1,7 @@
 <!-- --- title: urn:ietf:params:xml:ns:caldav:calendar -->
 
 <div id="summary-box" markdown="1">
-###Summary
+<h4>Summary</h4>
 
 #####Specification
 [[RFC 4791]]

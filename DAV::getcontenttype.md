@@ -1,7 +1,7 @@
 <!-- --- title: DAV::getcontenttype -->
 
 <div id="summary-box" markdown="1">
-###Summary
+<h4>Summary</h4>
 
 <dl>
 <dt>Specification</dt>
