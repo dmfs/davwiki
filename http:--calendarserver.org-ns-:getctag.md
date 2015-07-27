@@ -5,7 +5,7 @@
 
 #####Specification
 [[caldav-ctag]]
-[Section 4.1](http://svn.calendarserver.org/repository/calendarserver/CalendarServer/trunk/doc/Extensions/caldav-ctag.txt)
+<a href="http://svn.calendarserver.org/repository/calendarserver/CalendarServer/trunk/doc/Extensions/caldav-ctag.txt">Section 4.1</a>
 
 #####Type
 Property

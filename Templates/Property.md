@@ -7,12 +7,12 @@
 <dt>Specification</dt>
 <!-- insert the RFC number and the link to the original specification of this property -->
 <dd markdown="1">[[RFC xxxx]]
-[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb)
+<a href="http://tools.ietf.org/html/rfcxxxx#section-aa.bb">Section aa.bb</a>
 </dd>
 <dt>Updated by</dt>
 <!-- insert the RFC number and the link to the updating specification or remove this section -->
 <dd markdown="1">[[RFC xxxx]]
-[Section aa.bb](http://tools.ietf.org/html/rfcxxxx#section-aa.bb)
+<a href="http://tools.ietf.org/html/rfcxxxx#section-aa.bb">Section aa.bb</a>
 </dd>
 <dt>Type</dt>
 <dd markdown="1">Property

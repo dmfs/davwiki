@@ -6,7 +6,7 @@
 <dl>
 <dt>Specification</dt>
 <dd markdown="1">[[RFC 4918]]
-[Section 15.1](http://tools.ietf.org/html/rfc4918#section-15.1)
+<a href="http://tools.ietf.org/html/rfc4918#section-15.1">Section 15.1</a>
 </dd>
 <dt>Type</dt>
 <dd markdown="1">Property

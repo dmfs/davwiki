@@ -7,7 +7,7 @@
 <dt>Specification</dt>
 <!-- insert the RFC number and the link to the original specification of this property -->
 <dd markdown="1">[[RFC 4791]]
-[Section 7.5.1](http://tools.ietf.org/html/rfc4791#section-7.5.1)
+<a href="http://tools.ietf.org/html/rfc4791#section-7.5.1">Section 7.5.1</a>
 </dd>
 <dt>Type</dt>
 <dd markdown="1">Property
