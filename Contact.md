@@ -14,9 +14,9 @@ Germany
 <dt>Email</dt>
 <dd>davwiki<span class="insertat">davwiki</span><span class="insertdot">org<span></dd>
 <dt>Web</dt>
-<dd markdown="1">[dmfs.org](http://dmfs.org)
+<dd markdown="1"><a href="http://dmfs.org">dmfs.org</a>
 </dd>
 <dt>Twitter</dt>
-<dd markdown="1">[@dmfs_org](https://twitter.com/dmfs_org)
+<dd markdown="1"><a href="https://twitter.com/dmfs_org">@dmfs</a>
 </dd>
 </dl>

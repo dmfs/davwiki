@@ -7,7 +7,8 @@
 
 <dl>
 <dt>Specification</dt>
-<dd markdown="1">[[RFC 4918]] [Section 9.1](http://tools.ietf.org/html/rfc4918#section-9.1)
+<dd markdown="1">[[RFC 4918]]
+<a href="http://tools.ietf.org/html/rfc4918#section-9.1">Section 9.1</a>
 </dd>
 <dt>Request root element</dt>
 <dd markdown="1">[[DAV::propfind]]

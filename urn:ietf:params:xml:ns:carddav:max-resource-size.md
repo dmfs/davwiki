@@ -69,5 +69,5 @@ This element has been defined twice with different meanings:
 * In the context of a request or [[multistatus|DAV::multistatus]] element it represents a property as defined in [Section 6.2.3](http://tools.ietf.org/html/rfc6352#section-6.2.3)
 * In the context of an error response it represents a [[precondition]] as specified in [Section 6.3.2.1](https://tools.ietf.org/html/rfc6352#section-6.3.2.1):
 
->(CARDDAV:max-resource-size): The resource submitted in the [[PUT]] request, or targeted by a [[COPY]] or [[MOVE]] request, MUST have a size in octets less than or equal to the value of the CARDDAV:max-resource-size property value (Section 6.2.3) on the address book collection where the resource will be stored.
+>(CARDDAV:max-resource-size): The resource submitted in the [[PUT]] request, or targeted by a [[COPY]] or [[MOVE]] request, MUST have a size in octets less than or equal to the value of the CARDDAV:max-resource-size property value ([Section 6.2.3](http://tools.ietf.org/html/rfc6352#section-6.2.3)) on the address book collection where the resource will be stored.
 
