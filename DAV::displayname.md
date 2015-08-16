@@ -7,7 +7,7 @@
 <!-- --- xml_element: displayname -->
 <!-- --- type: property -->
 <!-- --- purpose: Provides a name for the resource that is suitable for presentation to a user. -->
-<!-- --- value: any test-->
+<!-- --- value: any text-->
 <!-- --- protected: SHOULD NOT -->
 <!-- --- allprop: MUST -->
 <!-- --- valid_for: all DAV compliant resources -->
