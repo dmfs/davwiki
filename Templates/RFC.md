@@ -1,4 +1,17 @@
+<!-- remove the following comments: -->
+
 <!-- --- title: RFC xxx: RFC TILE -->
+<!-- --- link_title: RFC -->
+<!-- --- type: wiki_template -->
+
+<!-- replace x--- by --- in the following comments and update the values accordingly: -->
+
+<!-- x--- title: RFC xxx: RFC-TITLE -->
+<!-- x--- link_title: RFC xxxx (SHORT TITLE) -->
+<!-- x--- spec: RFC xxx -->
+
+
+
 [[_TOC_]]
 
 <div id="summary-box" markdown="1">

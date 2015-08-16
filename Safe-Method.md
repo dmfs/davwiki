@@ -1,4 +1,5 @@
 <!-- --- title: Safe Method -->
+<!-- --- method_property_description: safe -->
 
 ###Description
 
@@ -50,12 +51,5 @@ From [RFC 7231, Section 4.2.1](https://tools.ietf.org/html/rfc7231#section-4.2.1
 > for the sake of link maintenance, pre-fetching, building a search
 > index, etc.
 
+<!-- >>> methods-for-property --><!-- <<< -->
 
-###Safe Methods
-
-* [[GET]]
-* [[HEAD]]
-* [[OPTIONS]]
-* [[PROPFIND]]
-* [[REPORT]]
-* [[TRACE]]

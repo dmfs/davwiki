@@ -1,33 +1,23 @@
 <!-- --- title: DAV::getcontentlength -->
+<!-- --- link_title: DAV:getcontentlength -->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 15.4 -->
+<!-- --- xml_namespace: DAV: -->
+<!-- --- xml_element: getcontentlength -->
+<!-- --- type: property -->
+<!-- --- purpose: Contains the Content-Length header returned by a [[GET]] without accept headers. -->
+<!-- --- value: non-negative decimal number -->
+<!-- --- protected: MUST -->
+<!-- --- allprop: MUST -->
+<!-- --- valid_for: any DAV-compliant resource that returns the [[Content-Length header|headers/Content-Lenght]] in response to a [[GET]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<dd markdown="1">[[RFC 4918]]
-<a href="http://tools.ietf.org/html/rfc4918#section-15.4">Section 15.4</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">any DAV-compliant resource that returns the [[Content-Length header|headers/Content-Lenght]] in response to a [[GET]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 
 ###Purpose
-> Contains the Content-Length header returned by a GET without accept headers.
+> Contains the Content-Length header returned by a [[GET]] without accept headers.
 
 ###Value
 > See [Section 14.13 of RFC 2616](http://tools.ietf.org/html/rfc2616#section-14.13)

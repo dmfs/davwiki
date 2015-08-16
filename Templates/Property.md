@@ -1,34 +1,25 @@
-<!-- --- title: property template -->
+<!-- remove the following comments: -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
+<!-- --- title: Property Template -->
+<!-- --- link_title: Property -->
+<!-- --- type: wiki_template -->
 
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC xxxx]]
-<a href="http://tools.ietf.org/html/rfcxxxx#section-aa.bb">Section aa.bb</a>
-</dd>
-<dt>Updated by</dt>
-<!-- insert the RFC number and the link to the updating specification or remove this section -->
-<dd markdown="1">[[RFC xxxx]]
-<a href="http://tools.ietf.org/html/rfcxxxx#section-aa.bb">Section aa.bb</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST | SHOULD | MAY | MUST NOT | SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">List resource types for which this property is valid
-</dd>
-</dl>
+<!-- replace x--- by --- in the following comments and update the values accordingly: -->
 
-</div>
+<!-- x--- title: NAMESPACE:ELEMENT -->
+<!-- x--- link_title: PREFIX:ELEMENT -->
+<!-- x--- link_title: DAV:getetag -->
+<!-- x--- current_spec: RFC xxxx -->
+<!-- x--- current_spec_rfc_number: xxxx -->
+<!-- x--- current_spec_rfc_section: xx.xx.xx -->
+<!-- x--- xml_namespace: NAMESPACE -->
+<!-- x--- xml_element: ELEMENT -->
+<!-- x--- type: property -->
+<!-- x--- purpose: INSERT PURPOSE HERE -->
+<!-- x--- value: INSERT VALUE HERE -->
+<!-- x--- protected: MUST | SHOULD | MAY | MUST NOT | SHOULD NOT -->
+<!-- x--- allprop: MUST | SHOULD | MAY | MUST NOT | SHOULD NOT -->
+<!-- x--- valid_for: List resource types for which this property is valid or even mandatory -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

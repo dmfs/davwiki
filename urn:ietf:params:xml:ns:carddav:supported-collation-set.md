@@ -1,29 +1,18 @@
 <!-- --- title: urn:ietf:params:xml:ns:carddav:supported-collation-set -->
+<!-- --- link_title: CARDDAV:supported-collation-set -->
+<!-- --- current_spec: RFC 6352 -->
+<!-- --- current_spec_rfc_number: 6352 -->
+<!-- --- current_spec_rfc_section: 8.3.1 -->
+<!-- --- xml_namespace: urn:ietf:params:xml:ns:carddav -->
+<!-- --- xml_element: supported-collation-set -->
+<!-- --- type: property -->
+<!-- --- purpose: Identifies the set of collations supported by the server for text matching operations. -->
+<!-- --- value: a list of [[CARDDAV::supported-collation|urn:ietf:params:xml:ns:carddav:supported-collation]] elements -->
+<!-- --- protected: MUST -->
+<!-- --- allprop: SHOULD NOT -->
+<!-- --- valid_for: This property MUST be defined on any resource that supports a report that does text matching. -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 6352]]
-<a href="http://tools.ietf.org/html/rfc6352#section-8.3.1">Section 8.3.1</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">This property MUST be defined on any resource that supports a report that does text matching.
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

@@ -1,29 +1,18 @@
 <!-- --- title: urn:ietf:params:xml:ns:carddav:addressbook-description -->
+<!-- --- link_title: CARDDAV:addressbook-description -->
+<!-- --- current_spec: RFC 6352 -->
+<!-- --- current_spec_rfc_number: 6352 -->
+<!-- --- current_spec_rfc_section: 6.2.1 -->
+<!-- --- xml_namespace: urn:ietf:params:xml:ns:carddav -->
+<!-- --- xml_element: addressbook-description -->
+<!-- --- type: property -->
+<!-- --- purpose: Provides a human-readable description of the address book collection. -->
+<!-- --- value: any text-->
+<!-- --- protected: SHOULD NOT -->
+<!-- --- allprop: SHOULD NOT -->
+<!-- --- valid_for: [[urn:ietf:params:xml:ns:carddav:addressbook]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 6352]]
-<a href="http://tools.ietf.org/html/rfc6352#section-6.2.1">Section 6.2.1</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">[[urn:ietf:params:xml:ns:carddav:addressbook]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 
@@ -60,3 +49,4 @@
   xmlns:C="urn:ietf:params:xml:ns:carddav"
 >Adresses de Oliver Daboo</C:addressbook-description>
 ```
+

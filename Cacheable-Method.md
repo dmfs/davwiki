@@ -1,4 +1,5 @@
 <!-- --- title: Cacheable Method -->
+<!-- --- method_property_description: cacheable -->
 
 ###Description
 
@@ -12,10 +13,5 @@ From [RFC 7231, Section 4.2.3](https://tools.ietf.org/html/rfc7231#section-4.2.3
 > cacheable, although the overwhelming majority of cache
 > implementations only support [[GET]] and [[HEAD]].
 
-###Cacheable Methods
+<!-- >>> methods-for-property --><!-- <<< -->
 
-* [[GET]]
-* [[HEAD]]
-* [[PROPFIND]]
-* [[REPORT]]
-* [[POST]]

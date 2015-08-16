@@ -1,29 +1,18 @@
 <!-- --- title: urn:ietf:params:xml:ns:carddav:principal-address -->
+<!-- --- link_title: CARDDAV:principal-address -->
+<!-- --- current_spec: RFC 6352 -->
+<!-- --- current_spec_rfc_number: 6352 -->
+<!-- --- current_spec_rfc_section: 7.1.2 -->
+<!-- --- xml_namespace: urn:ietf:params:xml:ns:carddav -->
+<!-- --- xml_element: principal-address -->
+<!-- --- type: property -->
+<!-- --- purpose: Identifies the URL of an address object resource that corresponds to the user represented by the principal. -->
+<!-- --- value: a single [[DAV:href|DAV::href]] element -->
+<!-- --- protected: MAY -->
+<!-- --- allprop: SHOULD NOT -->
+<!-- --- valid_for: [[DAV:principal|DAV::principal]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 6352]]
-<a href="http://tools.ietf.org/html/rfc6352#section-7.1.2">Section 7.1.2</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MAY
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">[[DAV::principal]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

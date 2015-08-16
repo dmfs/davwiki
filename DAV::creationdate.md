@@ -1,28 +1,18 @@
 <!-- --- title: DAV::creationdate -->
+<!-- --- link_title: DAV:creationdate -->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 15.1 -->
+<!-- --- xml_namespace: DAV: -->
+<!-- --- xml_element: creationdate -->
+<!-- --- type: property -->
+<!-- --- purpose: Records the time and date the resource was created. -->
+<!-- --- value: date-time -->
+<!-- --- protected: MAY -->
+<!-- --- allprop: MUST -->
+<!-- --- valid_for: all DAV compliant resources -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<dd markdown="1">[[RFC 4918]]
-<a href="http://tools.ietf.org/html/rfc4918#section-15.1">Section 15.1</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MAY
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">all DAV compliant resources
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

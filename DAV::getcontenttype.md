@@ -1,29 +1,18 @@
 <!-- --- title: DAV::getcontenttype -->
+<!-- --- link_title: DAV:getcontenttype -->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 15.5 -->
+<!-- --- xml_namespace: DAV: -->
+<!-- --- xml_element: getcontenttype -->
+<!-- --- type: property -->
+<!-- --- purpose: Contains the Content-Type header value as it would be returned by a [[GET]] without accept headers.-->
+<!-- --- value: media-type -->
+<!-- --- protected: MAY -->
+<!-- --- allprop: MUST -->
+<!-- --- valid_for: any DAV-compliant resource that returns the [[Content-Type header|headers/Content-Type]] in response to a [[GET]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 4918]]
-<a href="http://tools.ietf.org/html/rfc4918#section-15.5">Section 15.5</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MAY
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">any DAV-compliant resource that returns the [[Content-Type header|headers/Content-Type]] in response to a [[GET]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

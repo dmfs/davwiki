@@ -1,0 +1,2 @@
+{% set spec = this.spec|first %}
+{% include 'spec-property-table' %}

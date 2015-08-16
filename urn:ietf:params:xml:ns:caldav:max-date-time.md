@@ -1,29 +1,18 @@
 <!-- --- title: urn:ietf:params:xml:ns:caldav:max-date-time -->
+<!-- --- link_title: CALDAV:max-date-time -->
+<!-- --- current_spec: RFC 4791 -->
+<!-- --- current_spec_rfc_number: 4791 -->
+<!-- --- current_spec_rfc_section: 5.2.7 -->
+<!-- --- xml_namespace: urn:ietf:params:xml:ns:caldav -->
+<!-- --- xml_element: max-date-time -->
+<!-- --- type: property -->
+<!-- --- purpose:  Provides a DATE-TIME value indicating the latest date and time (in UTC) that the server is willing to accept for any DATE or DATE-TIME value in a calendar object resource stored in a calendar collection. -->
+<!-- --- value: An iCalendar format DATE-TIME value in UTC -->
+<!-- --- protected: MUST -->
+<!-- --- allprop: SHOULD NOT -->
+<!-- --- valid_for: [[urn:ietf:params:xml:ns:caldav:calendar]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 4791]]
-<a href="http://tools.ietf.org/html/rfc4791#section-5.2.7">Section 5.2.7</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">[[urn:ietf:params:xml:ns:caldav:calendar]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

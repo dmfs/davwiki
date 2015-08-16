@@ -1,0 +1,4 @@
+| Property | Purpose | Value | Protected | Returned by allprop |
+| -------- | ------- | ----- | --------- | ------------------- |
+{% for page in tags.type._values.property|sort(attribute='title') %}{% if spec in page.current_spec %}{% include 'property-table-row' %}
+{% endif %}{% endfor %}

@@ -1,31 +1,18 @@
 <!-- --- title: DAV::resourcetype -->
+<!-- --- link_title: DAV:resourcetype -->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 15.9 -->
+<!-- --- xml_namespace: DAV: -->
+<!-- --- xml_element: resourcetype -->
+<!-- --- type: property -->
+<!-- --- purpose: Specifies the nature of the resource. -->
+<!-- --- value: a list of elements representing resource types  -->
+<!-- --- protected: SHOULD -->
+<!-- --- allprop: MUST -->
+<!-- --- valid_for: MUST be defined on all DAV-compliant resources. -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 4918]]
-[Section 15.9](http://tools.ietf.org/html/rfc4918#section-15.9).
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">SHOULD
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST
-</dd>
-<!--
-<dt>Valid for resource types</dt>
-<dd markdown="1">List resource types for which this property is valid
-</dd>
--->
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

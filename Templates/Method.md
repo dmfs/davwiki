@@ -1,4 +1,15 @@
-<!-- --- title: method template -->
+<!-- remove the following comments: -->
+
+<!-- --- title: Method Template -->
+<!-- --- link_title: Method -->
+<!-- --- type: wiki_template -->
+
+<!-- replace x--- by --- in the following comments and update the values accordingly: -->
+
+<!-- x--- method: XXXX -->
+<!-- x--- type: method -->
+<!-- x--- method_properties: safe, idempotent, cacheable -->
+
 
 <div id="summary-box" markdown="1">
 <h4>Summary</h4>

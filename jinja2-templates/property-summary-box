@@ -1,0 +1,24 @@
+
+<div id="summary-box" markdown="1">
+<h3>Summary</h3>
+<dl>
+{% if this.current_spec %}
+<dt>Specification</dt>
+<dd markdown="1">[[{{ this.current_spec|first }}]]
+{% if this.current_spec_rfc_number and this.current_spec_rfc_section %}<a href="http://tools.ietf.org/html/rfc{{ this.current_spec_rfc_number|first }}#section-{{ this.current_spec_rfc_section|first }}">Section {{ this.current_spec_rfc_section|first }}</a>{% endif %}
+</dd>{% endif %}
+{% if this.type %}<dt>Type</dt>
+<dd markdown="1">{{ this.type|first|capitalize }}
+</dd>{% endif %}
+{% if this.protected %}<dt>Protected</dt>
+<dd markdown="1">{{ this.protected|first }}
+</dd>{% endif %}
+{% if this.allprop %}<dt>Returned by allprop</dt>
+<dd markdown="1">{{ this.allprop|first }}
+</dd>{% endif %}
+{% if this.valid_for %}<dt>Valid for resource types</dt>
+<dd markdown="1">{% for r in this.valid_for %}{{ r }}{% if not loop.last %}, {% endif %}{% endfor %}
+</dd>{% endif %}
+</dl>
+</div>
+

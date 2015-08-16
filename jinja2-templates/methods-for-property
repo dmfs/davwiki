@@ -1,0 +1,5 @@
+
+### {{ this.method_property_description|first|capitalize }} Methods
+
+{% for page in tags.method_properties._values[this.method_property_description|first]|sort(attribute='id') %}* [[{{page.id}}]]
+{% endfor %}

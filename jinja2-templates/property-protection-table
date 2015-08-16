@@ -1,0 +1,4 @@
+| Property | RFC | Purpose | Value | Returned by allprop |
+| -------- | --- | ------- | ----- | ------------------- |
+{% for page in tags.type._values.property|sort(attribute='title') %}{% if protected in page.protected %}{% include 'property-protection-table-row' %}
+{% endif %}{% endfor %}

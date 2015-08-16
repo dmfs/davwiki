@@ -1,29 +1,18 @@
 <!-- --- title: urn:ietf:params:xml:ns:caldav:max-resource-size -->
+<!-- --- link_title: CALDAV:max-resource-size -->
+<!-- --- current_spec: RFC 4791 -->
+<!-- --- current_spec_rfc_number: 4791 -->
+<!-- --- current_spec_rfc_section: 5.2.5 -->
+<!-- --- xml_namespace: urn:ietf:params:xml:ns:caldav -->
+<!-- --- xml_element: max-resource-size -->
+<!-- --- type: property -->
+<!-- --- purpose: Provides a numeric value indicating the maximum size of a resource in octets that the server is willing to accept when a calendar object resource is stored in a calendar collection. -->
+<!-- --- value: A numeric value (positive integer) -->
+<!-- --- protected: MUST -->
+<!-- --- allprop: SHOULD NOT -->
+<!-- --- valid_for: [[urn:ietf:params:xml:ns:caldav:calendar]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<!-- insert the RFC number and the link to the original specification of this property -->
-<dd markdown="1">[[RFC 4791]]
-<a href="http://tools.ietf.org/html/rfc4791#section-5.2.5">Section 5.2.5</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">[[urn:ietf:params:xml:ns:caldav:calendar]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

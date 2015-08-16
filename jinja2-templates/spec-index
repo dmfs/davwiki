@@ -1,0 +1,2 @@
+{% for spec in tags.current_spec._values|sort %}{% include 'spec-list' %}{% endfor %}
+

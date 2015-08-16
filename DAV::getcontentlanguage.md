@@ -1,28 +1,18 @@
 <!-- --- title: DAV::getcontentlanguage -->
+<!-- --- link_title: DAV:getcontentlanguage -->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 15.3 -->
+<!-- --- xml_namespace: DAV: -->
+<!-- --- xml_element: getcontentlanguage -->
+<!-- --- type: property -->
+<!-- --- purpose: Contains the Content-Language header value as it would be returned by a [[GET]] without accept headers. -->
+<!-- --- value: language-tag -->
+<!-- --- protected: SHOULD NOT -->
+<!-- --- allprop: MUST -->
+<!-- --- valid_for: any DAV-compliant resource that returns the [[Content-Language header|headers/Content-Language]] on a [[GET]] -->
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<dd markdown="1">[[RFC 4918]]
-<a href="http://tools.ietf.org/html/rfc4918#section-15.3">Section 15.3</a>
-</dd>
-<dt>Type</dt>
-<dd markdown="1">Property
-</dd>
-<dt>Protected</dt>
-<dd markdown="1">SHOULD NOT
-</dd>
-<dt>Returned by allprop</dt>
-<dd markdown="1">MUST
-</dd>
-<dt>Valid for resource types</dt>
-<dd markdown="1">any DAV-compliant resource that returns the [[Content-Language header|headers/Content-Language]] on a [[GET]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

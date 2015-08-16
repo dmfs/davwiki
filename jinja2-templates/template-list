@@ -1,0 +1,3 @@
+{# this creates an unnumbered list of all pages with type: wiki #}
+{% for page in tags.type._values['wiki_template']|sort(attribute='id') %}* [[{% if page.link_title %}{{page.link_title|first}}|{% endif %}{{page.id}}]]
+{% endfor %}

@@ -4,4 +4,6 @@
 
 [[List of Namespaces]]
 
-[[List of DAV Properties]]
+[[List of DAV Properties by Specification]]
+
+[[List of DAV Properties by Protection]]

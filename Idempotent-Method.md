@@ -1,4 +1,5 @@
 <!-- --- title: Idempotent Method -->
+<!-- --- method_property_description: idempotent -->
 
 ###Description
 
@@ -24,13 +25,5 @@ From [RFC 7231, Section 4.2.2](https://tools.ietf.org/html/rfc7231#section-4.2.2
 >the request will have the same intended effect, even if the original
 >request succeeded, though the response might differ.
 
-###Idempotent Methods
+<!-- >>> methods-for-property --><!-- <<< -->
 
-* [[GET]]
-* [[HEAD]]
-* [[MKCOL]]
-* [[OPTIONS]]
-* [[PROPFIND]]
-* [[PROPPATCH]]
-* [[PUT]]
-* [[REPORT]]

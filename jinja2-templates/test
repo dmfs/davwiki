@@ -1,0 +1,11 @@
+{% for rfc in tags.rfc._values|sort %}
+
+### {{ rfc }}
+
+| Property | Purpose | Value |
+| -------- | ------- | ----- |
+{% for element, pages in tags.element._values.items()|sort %}{% for page in pages %}{% if rfc in page.rfc %}| [[{% if page.title %}{{page.title|first}}|{% endif %}{{page.id}}]] | {{page.purpose|first}} | {{page.value|first}} | 
+{% endif %}{% endfor %}{% endfor %}{% endfor %}
+
+
+

@@ -1,0 +1,1 @@
+| [[{% if page.link_title %}{{page.link_title|first}}|{% elif page.title %}{{page.title|first}}|{% endif %}{{page.id}}]] | {{page.purpose|first}} | {{page.value|first}} | {{page.protected|first}} | {{page.allprop|first}} |

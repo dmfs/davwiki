@@ -1,4 +1,7 @@
 <!-- --- title: PROPFIND Method -->
+<!-- --- method: PROPFIND -->
+<!-- --- type: method -->
+<!-- --- method_properties: safe, idempotent, cacheable -->
 
 [[_TOC_]]
 
