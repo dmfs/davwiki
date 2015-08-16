@@ -10,7 +10,7 @@
 <!-- --- value: a list of [[lock entries|DAV::lockentry]] -->
 <!-- --- protected: MUST -->
 <!-- --- allprop: MUST -->
-<!-- x--- valid_for:  --> <!-- TODO -->
+<!-- x--- valid_for:  TODO -->
 
 <!-- >>> property-summary-box --><!-- <<< -->
 
