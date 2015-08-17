@@ -8,7 +8,6 @@
 
 <!-- x--- title: NAMESPACE:ELEMENT -->
 <!-- x--- link_title: PREFIX:ELEMENT -->
-<!-- x--- link_title: DAV:getetag -->
 <!-- x--- current_spec: RFC xxxx -->
 <!-- x--- current_spec_rfc_number: xxxx -->
 <!-- x--- current_spec_rfc_section: xx.xx.xx -->
@@ -20,6 +19,8 @@
 <!-- x--- protected: MUST | SHOULD | MAY | MUST NOT | SHOULD NOT -->
 <!-- x--- allprop: MUST | SHOULD | MAY | MUST NOT | SHOULD NOT -->
 <!-- x--- valid_for: List resource types for which this property is valid or even mandatory -->
+
+<!-- >>> property-summary-box --><!-- <<< -->
 
 <!-- below is a list of common sections for property definitions. Adjust the list as needed. Don't forget to block-quote any text that's copied from the RFC -->
 

@@ -1,5 +1,5 @@
 {% for protected in ['MUST', 'SHOULD', 'MAY', 'SHOULD NOT', 'MUST NOT'] %}
-### Protected: {{ protected }}
+# Protected: {{ protected }}
 
 {% include 'property-protection-table' %}
 {% endfor %}

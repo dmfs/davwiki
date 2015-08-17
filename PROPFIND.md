@@ -1,30 +1,17 @@
 <!-- --- title: PROPFIND Method -->
+<!-- --- link_title: PROPFIND -->
 <!-- --- method: PROPFIND -->
 <!-- --- type: method -->
 <!-- --- method_properties: safe, idempotent, cacheable -->
+<!-- --- valid_success_response_status: 207 Multistatus-->
+<!-- --- current_spec: RFC 4918 -->
+<!-- --- current_spec_rfc_number: 4918 -->
+<!-- --- current_spec_rfc_section: 9.1 -->
+<!-- --- purpose: retrieves properties defined on the resource identified by the Request-URI -->
 
 [[_TOC_]]
 
-<div id="summary-box" markdown="1">
-<h4>Summary</h4>
-
-<dl>
-<dt>Specification</dt>
-<dd markdown="1">[[RFC 4918]]
-<a href="http://tools.ietf.org/html/rfc4918#section-9.1">Section 9.1</a>
-</dd>
-<dt>Request root element</dt>
-<dd markdown="1">[[DAV::propfind]]
-</dd>
-<dt>Request properties</dt>
-<dd markdown="1">[[Cacheable|Cacheable Method]] (some results), [[Idempotent|Idempotent Method]], [[Safe|Safe Method]]
-</dd>
-<dt>Valid success status codes</dt>
-<dd markdown="1">[[207]]
-</dd>
-</dl>
-
-</div>
+<!-- >>> property-summary-box --><!-- <<< -->
 
 ###Description
 > The PROPFIND method retrieves properties defined on the resource

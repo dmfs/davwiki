@@ -17,7 +17,13 @@
 <dd markdown="1">{{ this.allprop|first }}
 </dd>{% endif %}
 {% if this.valid_for %}<dt>Valid for resource types</dt>
-<dd markdown="1">{% for r in this.valid_for %}{{ r }}{% if not loop.last %}, {% endif %}{% endfor %}
+<dd markdown="1">{% for r in this.valid_for|sort %}{{ r }}{% if not loop.last %}, {% endif %}{% endfor %}
+</dd>{% endif %}
+{% if this.method_properties %}<dt>Request Properties</dt>
+<dd markdown="1">{% for p in this.method_properties|sort if tags.method_property_description._values[p] %}[[{{ p|capitalize }}|{{ tags.method_property_description._values[p].0.id }}]]{% if not loop.last %}, {% endif %}{% else %}None{% endfor %}
+</dd>{% endif %}
+{% if this.valid_success_response_status %}<dt>Valid success status codes</dt>
+<dd markdown="1">{% for p in this.valid_success_response_status|sort %}[[{{ p }}]]{% if not loop.last %}, {% endif %}{% endfor %}
 </dd>{% endif %}
 </dl>
 </div>

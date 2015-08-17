@@ -1,5 +1,5 @@
 {% for spec in tags.current_spec._values|sort %}{% set spec_page = tags.spec._values[spec]|first %}
-### [[{% if spec_page.link_title %}{{ spec_page.link_title|first }}|{% elif spec_page.title %}{{ spec_page.title|first }}|{% endif %}{{ spec_page.id }}]]
+# [[{% if spec_page.link_title %}{{ spec_page.link_title|first }}|{% elif spec_page.title %}{{ spec_page.title|first }}|{% endif %}{{ spec_page.id }}]]
 
 {% include 'spec-property-table' %}
 {% endfor %}
