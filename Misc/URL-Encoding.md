@@ -1,4 +1,6 @@
 <!-- --- title: URL encoding -->
+<!-- --- current_spec: RFC 3986 -->
+<!-- --- current_spec_rfc_number: 3986 -->
 
 ### Bugs
 
