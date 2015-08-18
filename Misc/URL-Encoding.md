@@ -2,6 +2,12 @@
 <!-- --- current_spec: RFC 3986 -->
 <!-- --- current_spec_rfc_number: 3986 -->
 
+### Theory
+
+When fetching resources, URL encoding and normalization is in theory a
+non-issue, since you're supposed to just reuse the same exact strings that the
+server gave you. For comparing URIs, see section 6 of the RFC.
+
 ### Bugs
 
 - ownCloud Contacts doubly-encodes/quotes hrefs in addressbook-multiget
