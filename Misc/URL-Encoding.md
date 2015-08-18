@@ -14,10 +14,19 @@
 
 ### Workarounds
 
-- For normalization, decode the URL until it doesn't change anymore. Then
-  encode once.
+- It is strongly recommended to avoid unsafe characters in names when `PUT`-ing
+  new items or when creating collections. Safe characters include alphanumeric
+  characters and `_.-`.
 
-  - Also stop if a remaining `%`-sequence would decode to a reserved character.
+- For normalization, one may decode the URL until:
+
+  - It doesn't change anymore.
+  - A remaining `%`-sequence would decode to a reserved character.
+
+  then encode it once. Note that this might change the meaning of the URL and
+  accidentally give you a reference to a different item or collection, but
+  given the current implementations and their buggyness, this is rather
+  unlikely.
 
 ### Further references
 
